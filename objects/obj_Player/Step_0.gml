@@ -25,7 +25,7 @@ if(mouse_check_button(mb_left)) {
 	
 	myBullet.direction = image_angle;
 	myBullet.image_angle = image_angle;
-	myBullet.speed = 20;
+	myBullet.speed = 10;
 }
 
 

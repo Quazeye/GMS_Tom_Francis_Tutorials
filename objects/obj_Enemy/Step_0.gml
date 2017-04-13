@@ -1,4 +1,4 @@
-/// @description 
+/// @description Enemy logic
 
 // Facing
 image_angle = direction;
@@ -15,5 +15,11 @@ if (x < 0 || x > room_width) {
 incomingBullet = instance_place(x,y, obj_Bullet);
 
 if (instance_exists(incomingBullet)) {
-	instance_destroy();
+	image_xscale = image_xscale - 0.2;
+	image_yscale = image_xscale;
+	
+	with (incomingBullet) {
+		instance_destroy();
+	}
+	
 }
