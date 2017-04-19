@@ -10,7 +10,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "fcd045e3-c3ef-4907-a165-50507d5f40ae",
-        "86fae9c6-8cbb-4b3a-8abc-76596c9dd8dd"
+        "86fae9c6-8cbb-4b3a-8abc-76596c9dd8dd",
+        "e86b7285-e73d-4d0d-8576-06197804cda4"
     ],
     "layers": [
         {
@@ -83,15 +84,76 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "e86b7285-e73d-4d0d-8576-06197804cda4",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_3085B5CF",
+                    "x": 0,
+                    "y": 0,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_3085B5CF",
+                    "objId": "24c146c5-6c68-49ec-9597-9fffabf0c347",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
+        },
+        {
+            "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "bfb66cf1-b860-4b94-9ac7-0fe7867bf8e6",
+            "modelName": "GMRBackgroundLayer",
+            "mvc": "1.0",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Backgrounds_1",
+            "userdefined_depth": false,
+            "visible": true,
+            "animationFPS": 15,
+            "animationSpeedType": 0,
+            "colour": {
+                "Value": 4294967295
+            },
+            "hspeed": 0,
+            "htiled": true,
+            "spriteId": "c7237867-1b14-47e9-867c-2d176be57328",
+            "stretch": false,
+            "userdefined_animFPS": false,
+            "vspeed": 0,
+            "vtiled": true,
+            "x": 0,
+            "y": 0
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "id": "2f8e64c1-623b-425b-adf4-1857a1d5884f",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -139,8 +201,8 @@
         "id": "cdc2bed9-5295-4299-8791-e2693322d314",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 768,
-        "Width": 1024,
+        "Height": 5000,
+        "Width": 5000,
         "inheritRoomSettings": false,
         "persistent": false
     },
@@ -150,7 +212,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -158,17 +220,17 @@
             "id": "115a30d3-fbab-4fbf-82cd-3f2f3f768475",
             "modelName": "GMRView",
             "mvc": "1.0",
-            "hborder": 32,
-            "hport": 768,
+            "hborder": 256,
+            "hport": 1440,
             "hspeed": -1,
-            "hview": 768,
+            "hview": 1440,
             "inherit": false,
-            "objId": "00000000-0000-0000-0000-000000000000",
-            "vborder": 32,
-            "visible": false,
+            "objId": "144c0263-a4dd-467b-9d85-b1bc2efffc45",
+            "vborder": 256,
+            "visible": true,
             "vspeed": -1,
-            "wport": 1024,
-            "wview": 1024,
+            "wport": 2560,
+            "wview": 2560,
             "xport": 0,
             "xview": 0,
             "yport": 0,
