@@ -1,3 +1,3 @@
 /// @description Set enemy variables
-speed = 3;
+speed = 90 / room_speed;
 direction = random(360);

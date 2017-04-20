@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "9ad45ca3-1006-47da-b996-ff22582baa9d",
+            "Value": {
+                "id": "0e8fe717-d1a0-447c-9120-bdbef5b0cd89",
+                "resourcePath": "sounds\\snd_Bullet\\snd_Bullet.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a7bb95a7-6731-465a-bffd-b9ec3552f921",
             "Value": {
                 "id": "1c2ef1a7-b334-44b2-b5d8-93e037b6c091",
