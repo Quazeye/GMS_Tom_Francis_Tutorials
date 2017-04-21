@@ -1,5 +1,6 @@
 /// @description Player Movement
 
+
 // Movement
 mySpeed = 300 / room_speed;
 
@@ -20,6 +21,7 @@ if (keyboard_check(ord("D"))) {
 // Facing
 image_angle = point_direction(x,y, mouse_x,mouse_y);
 
+
 // Firing
 if(mouse_check_button(mb_left)) {
 	myBullet = instance_create_depth(x,y,1,obj_Bullet);
@@ -38,6 +40,8 @@ if(mouse_check_button(mb_left)) {
 	
 }
 
+
+
 // Stay inside the room
 if (x < 0) {
 	x = 0;
@@ -50,4 +54,20 @@ if (x > room_width) {
 }
 if (y > room_height){
 	y = room_height;
+}
+
+
+// Death
+EnemyTouchingMe = instance_place(x,y, obj_Enemy);
+
+if (instance_exists(EnemyTouchingMe)) {
+	bitsCreatedSoFar = 0;
+	
+	while (bitsCreatedSoFar < obj_Game.numberOfBitsThePlayerIsMadeOf) {
+		newBit = instance_create_depth(x,y, 1, obj_PlayerChunk); 
+		bitsCreatedSoFar = bitsCreatedSoFar + 1;
+	}
+	
+	audio_play_sound(snd_playerDeath,1,false);
+	instance_destroy();
 }

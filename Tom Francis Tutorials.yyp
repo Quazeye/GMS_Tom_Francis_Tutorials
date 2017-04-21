@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "104b1eeb-b3ab-47f8-8b80-e4dae9e0f90c",
+            "Value": {
+                "id": "845ccddd-24a4-4a90-beb8-006f1c7770b0",
+                "resourcePath": "objects\\obj_PlayerChunk\\obj_PlayerChunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12288533-c226-434a-a1b3-327cc0a127e2",
             "Value": {
                 "id": "1896227f-5fc7-41e4-bb9c-87cf6b2798a1",
@@ -92,6 +100,14 @@
                 "id": "08e0b978-9681-4052-8902-c559becfd652",
                 "resourcePath": "objects\\obj_Game\\obj_Game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "30a99169-f171-4a1d-b206-11d521b6d452",
+            "Value": {
+                "id": "81f71fb5-77e4-476c-843c-2666f72e3df1",
+                "resourcePath": "sprites\\spr_PlayerChunk\\spr_PlayerChunk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "329010bd-0421-479f-ac04-dd7d9d3a6bbe",
                 "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8d46385-48ee-4c4f-86c6-20bcf660182c",
+            "Value": {
+                "id": "38430c15-6175-4281-8af7-05eb21ab4e00",
+                "resourcePath": "sounds\\snd_playerDeath\\snd_playerDeath.yy",
+                "resourceType": "GMSound"
             }
         },
         {
