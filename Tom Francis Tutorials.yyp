@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "46778942-70dd-4cdb-a2ed-6fc30958ee8e",
+            "Value": {
+                "id": "d365484c-1b7d-44b1-98a8-74234ccdef9e",
+                "resourcePath": "sprites\\spr_ExplodingEnemy\\spr_ExplodingEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "472a3450-c6d7-4071-8c0f-4c6f9e121c37",
             "Value": {
                 "id": "13412955-04c9-4300-871f-f22351301b6c",
@@ -287,6 +295,22 @@
             }
         },
         {
+            "Key": "e63b54b8-40f7-4040-bf1a-8a35f39a2a46",
+            "Value": {
+                "id": "f71aae47-a67a-4b4b-8919-f0348beec3a5",
+                "resourcePath": "scripts\\scr_explodeIntoANumberOfChunks\\scr_explodeIntoANumberOfChunks.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e93cbe86-cc2b-4c2a-b02c-fc9792f61898",
+            "Value": {
+                "id": "4a6e8df2-0b39-4116-bcb2-b1be1e222d3d",
+                "resourcePath": "objects\\obj_ExplodingEnemy\\obj_ExplodingEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "07ed193e-2c68-452a-b6be-d7875b379f48",
@@ -296,7 +320,7 @@
         }
     ],
     "script_order": [
-        
+        "e63b54b8-40f7-4040-bf1a-8a35f39a2a46"
     ],
     "tutorial": ""
 }
