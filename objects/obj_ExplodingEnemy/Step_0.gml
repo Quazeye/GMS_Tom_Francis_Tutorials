@@ -22,5 +22,5 @@ if (instance_exists(incomingBullet)) {
 		instance_destroy();
 	}
 	
-	scr_explodeIntoANumberOfChunks();
+	scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);
 }

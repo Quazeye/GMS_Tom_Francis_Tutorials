@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "bee923c3-a50c-4bc2-875d-96affc85a3bf",
+            "Value": {
+                "id": "b7237596-b774-415e-bb33-016e5dc025ad",
+                "resourcePath": "objects\\obj_ExplodingEnemyChunk\\obj_ExplodingEnemyChunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c7237867-1b14-47e9-867c-2d176be57328",
             "Value": {
                 "id": "fb69a252-5e68-410a-a182-05cf6d4655c6",
@@ -308,6 +316,14 @@
                 "id": "4a6e8df2-0b39-4116-bcb2-b1be1e222d3d",
                 "resourcePath": "objects\\obj_ExplodingEnemy\\obj_ExplodingEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef93f0c7-7545-4421-b50b-75f71be89fbb",
+            "Value": {
+                "id": "6b5f264b-b72e-423e-8894-8b23b05b460b",
+                "resourcePath": "sprites\\spr_ExplodingEnemyChunk\\spr_ExplodingEnemyChunk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
