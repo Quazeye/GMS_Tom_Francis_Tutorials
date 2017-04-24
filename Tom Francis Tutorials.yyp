@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "36135732-3402-4682-8bd2-c129ce6aa27c",
+            "Value": {
+                "id": "f49ecccc-9f50-4064-b66c-e267190bc109",
+                "resourcePath": "objects\\obj_MachineGun\\obj_MachineGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d838ddf-1998-43d5-82b9-3e340f1d93a7",
             "Value": {
                 "id": "df3b5bdf-b7c6-4ff4-af9d-6032eef76ee9",
