@@ -4,7 +4,15 @@ secondsSinceLastEnemySpawn = secondsSinceLastEnemySpawn + (1 / room_speed);
 if (secondsSinceLastEnemySpawn >= secondsBetweenEnemySpawns) {
 
 	// Spawn enemy
-	instance_create_depth(random(room_width), random(room_height), 1, choose(obj_ShrinkingEnemy,
+	if choose(true, false) {	
+		spawnX = random(room_width);
+		spawnY = choose(0, room_height);
+	} else {
+		spawnX = choose(0, room_width);
+		spawnY = choose(room_height);
+	}
+		
+	instance_create_depth(spawnX, spawnY, 1, choose(obj_ShrinkingEnemy,
 							obj_ExplodingEnemy, obj_ExplodingEnemy));
 	secondsSinceLastEnemySpawn = 0;
 
