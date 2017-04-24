@@ -22,7 +22,15 @@ if (keyboard_check(ord("D"))) {
 image_angle = point_direction(x,y, mouse_x,mouse_y);
 
 
+// Pick up weapons
+weaponTouching = instance_place(x,y, obj_MachineGun);
 
+if (instance_exists(weaponTouching)) {
+
+	currentWeapon = weaponTouching;
+	currentWeapon.owner = self.id;
+
+}
 
 
 // Stay inside the room

@@ -21,6 +21,4 @@ if (instance_exists(owner)) {
 		audio_play_sound(snd_Bullet,1,false);
 	
 	}
-} else {
-	instance_destroy();
 }
