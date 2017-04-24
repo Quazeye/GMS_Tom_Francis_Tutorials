@@ -7,15 +7,9 @@ image_angle = direction;
 scr_bounceOffWalls();
 
 // Damage
-incomingBullet = instance_place(x,y, obj_Projectile);
 
 
-if (instance_exists(incomingBullet)) {
-
-	// Destroy the bullet
-	with (incomingBullet) {
-		instance_destroy();
-	}
+if (scr_hitByProjectile()) {
 
 	// Shrink ourselves
 	image_xscale = image_xscale - 0.2;

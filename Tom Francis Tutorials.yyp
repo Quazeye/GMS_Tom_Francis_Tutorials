@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "646b03cd-8248-4a84-ba26-245b8ab9fd48",
+            "Value": {
+                "id": "e22475a2-6039-450a-b73a-7a885ccb65eb",
+                "resourcePath": "scripts\\scr_hitByProjectile\\scr_hitByProjectile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "b817acab-c092-42ac-8465-2f66f29da921",
@@ -353,7 +361,8 @@
     ],
     "script_order": [
         "e63b54b8-40f7-4040-bf1a-8a35f39a2a46",
-        "ff2fc2e0-f334-4669-9817-8058c8cf0be5"
+        "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
+        "646b03cd-8248-4a84-ba26-245b8ab9fd48"
     ],
     "tutorial": ""
 }

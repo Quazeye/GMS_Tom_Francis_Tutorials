@@ -7,15 +7,9 @@ image_angle = direction;
 scr_bounceOffWalls();
 
 // Damage
-incomingBullet = instance_place(x,y, obj_Projectile);
 
+if (scr_hitByProjectile()) {
 
-if (instance_exists(incomingBullet)) {
+	scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);	
 
-	// Destroy the bullet
-	with (incomingBullet) {
-		instance_destroy();
-	}
-	
-	scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);
 }
