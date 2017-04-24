@@ -45,6 +45,7 @@ if (reassembling = false) {  // We are still flying out from initial explosion
 			obj_Game.bitsReassembled = obj_Game.bitsReassembled + 1;
 			// Remember that we are here and have already been counted
 			inPosition = true;
+			audio_play_sound(snd_ChunkArrive,1,false);
 		}
 		
 		// Have all of the pieces returned yet?
@@ -54,6 +55,7 @@ if (reassembling = false) {  // We are still flying out from initial explosion
 			
 			// Re-create the player
 			instance_create_depth(x,y, 1, obj_Player);
+			audio_play_sound(snd_Reassemble ,1,false);
 			// Destroy all the chunks
 			with (obj_PlayerChunk) {
 				instance_destroy();

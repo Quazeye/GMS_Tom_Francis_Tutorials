@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2f05ee65-2a67-4312-927c-6daa6f13ad06",
+            "Value": {
+                "id": "5294af41-25df-476b-803f-bc660c198fc5",
+                "resourcePath": "sounds\\snd_ChunkArrive\\snd_ChunkArrive.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "30a99169-f171-4a1d-b206-11d521b6d452",
             "Value": {
                 "id": "81f71fb5-77e4-476c-843c-2666f72e3df1",
@@ -116,6 +124,14 @@
                 "id": "7a4ca192-3ab5-49f6-8c5a-1595502371aa",
                 "resourcePath": "sprites\\spr_Bullet\\spr_Bullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d838ddf-1998-43d5-82b9-3e340f1d93a7",
+            "Value": {
+                "id": "df3b5bdf-b7c6-4ff4-af9d-6032eef76ee9",
+                "resourcePath": "sounds\\snd_Reassemble\\snd_Reassemble.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -284,6 +300,14 @@
                 "id": "b7237596-b774-415e-bb33-016e5dc025ad",
                 "resourcePath": "objects\\obj_ExplodingEnemyChunk\\obj_ExplodingEnemyChunk.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf1e4f73-693c-447c-bb55-08c63c2ef2d1",
+            "Value": {
+                "id": "e86011b1-ccc7-4da9-bf7a-9bec11d28329",
+                "resourcePath": "sounds\\snd_explode\\snd_explode.yy",
+                "resourceType": "GMSound"
             }
         },
         {

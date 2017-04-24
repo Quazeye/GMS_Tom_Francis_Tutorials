@@ -66,5 +66,5 @@ EnemyTouchingMe = instance_place(x,y, obj_Enemy);
 if (instance_exists(EnemyTouchingMe)) {
 
 	scr_explodeIntoANumberOfChunks(obj_Game.numberOfBitsThePlayerIsMadeOf, obj_PlayerChunk);
-
+	
 }

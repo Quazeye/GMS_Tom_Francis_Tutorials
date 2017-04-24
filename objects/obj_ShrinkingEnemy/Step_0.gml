@@ -19,6 +19,8 @@ if (scr_hitByProjectile()) {
 	// If we don't do this then we get bigger and bigger in the 
 	// negative scale.
 	if (image_xscale <= 0) {
+		
+		audio_play_sound(snd_explode,1,false);
 		instance_destroy();
 	}
 }
