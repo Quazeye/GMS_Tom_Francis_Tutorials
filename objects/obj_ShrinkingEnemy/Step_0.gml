@@ -19,7 +19,6 @@ if (scr_hitByProjectile()) {
 	// If we don't do this then we get bigger and bigger in the 
 	// negative scale.
 	if (image_xscale <= 0) {
-		instance_create_depth(random(room_width), random(room_height),1,obj_Enemy);
 		instance_destroy();
 	}
 }

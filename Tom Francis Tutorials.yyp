@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "a269db76-269b-402a-829b-e9eb33561e6a",
+            "Value": {
+                "id": "65506af5-4ac2-4ff0-a592-d1294983a2c0",
+                "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a7bb95a7-6731-465a-bffd-b9ec3552f921",
             "Value": {
                 "id": "1c2ef1a7-b334-44b2-b5d8-93e037b6c091",
@@ -250,7 +258,7 @@
             "Key": "b377ea55-b2bc-4136-a079-91572b0b7652",
             "Value": {
                 "id": "329010bd-0421-479f-ac04-dd7d9d3a6bbe",
-                "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
+                "resourcePath": "objects\\obj_ShrinkingEnemy\\obj_ShrinkingEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
