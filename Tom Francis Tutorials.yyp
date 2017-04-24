@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "b94049ed-7f4c-40a3-998f-63b4ec097c0c",
+            "Value": {
+                "id": "87eafce7-e69e-4c96-aa0a-acce2cc8767d",
+                "resourcePath": "objects\\obj_Projectile\\obj_Projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bee923c3-a50c-4bc2-875d-96affc85a3bf",
             "Value": {
                 "id": "b7237596-b774-415e-bb33-016e5dc025ad",
@@ -333,10 +341,19 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
+            "Value": {
+                "id": "8230223f-e845-472e-b33d-cd246b8fe924",
+                "resourcePath": "scripts\\scr_bounceOffWalls\\scr_bounceOffWalls.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        "e63b54b8-40f7-4040-bf1a-8a35f39a2a46"
+        "e63b54b8-40f7-4040-bf1a-8a35f39a2a46",
+        "ff2fc2e0-f334-4669-9817-8058c8cf0be5"
     ],
     "tutorial": ""
 }
