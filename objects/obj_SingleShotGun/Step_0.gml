@@ -3,7 +3,7 @@ if (instance_exists(owner)) {
 	y = owner.y;
 	image_angle = owner.image_angle;
 
-	// Firing
+	// Firing //
 	
 	// Increment timer
 	secondsSinceLastShot = secondsSinceLastShot + 1 / room_speed;
@@ -29,3 +29,5 @@ if (instance_exists(owner)) {
 	
 	}
 }
+
+scr_canBePickedUp();

@@ -2,7 +2,7 @@
     "id": "ebd8b894-c595-4f82-8b3f-8ed760473746",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Gun",
+    "name": "obj_SingleShotGun",
     "eventList": [
         {
             "id": "42dbf29f-5dba-42ea-a1ab-54bc88b53ac2",

@@ -22,3 +22,5 @@ if (instance_exists(owner)) {
 	
 	}
 }
+
+scr_canBePickedUp();

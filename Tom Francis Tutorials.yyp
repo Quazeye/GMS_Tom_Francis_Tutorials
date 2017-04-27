@@ -82,7 +82,7 @@
             "Key": "1a566a42-b234-40ac-858f-f3fc2d6d28af",
             "Value": {
                 "id": "a5d166e1-56cf-4a13-bbcd-820da991147d",
-                "resourcePath": "sprites\\spr_SingleShotGun\\spr_SingleShotGun.yy",
+                "resourcePath": "sprites\\spr_Gun\\spr_Gun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "994dc883-7b6f-4202-ba2c-d5a38b4e6300",
+            "Value": {
+                "id": "448dc78c-7ef0-4c4f-8178-609908d97187",
+                "resourcePath": "scripts\\scr_canBePickedUp\\scr_canBePickedUp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9ad45ca3-1006-47da-b996-ff22582baa9d",
             "Value": {
                 "id": "0e8fe717-d1a0-447c-9120-bdbef5b0cd89",
@@ -394,7 +402,7 @@
             "Key": "ebd8b894-c595-4f82-8b3f-8ed760473746",
             "Value": {
                 "id": "205a702b-31be-4efc-be8d-1effaa79c970",
-                "resourcePath": "objects\\obj_Gun\\obj_Gun.yy",
+                "resourcePath": "objects\\obj_SingleShotGun\\obj_SingleShotGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -426,7 +434,8 @@
     "script_order": [
         "e63b54b8-40f7-4040-bf1a-8a35f39a2a46",
         "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
-        "646b03cd-8248-4a84-ba26-245b8ab9fd48"
+        "646b03cd-8248-4a84-ba26-245b8ab9fd48",
+        "994dc883-7b6f-4202-ba2c-d5a38b4e6300"
     ],
     "tutorial": ""
 }

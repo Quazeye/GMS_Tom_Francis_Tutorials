@@ -2,7 +2,7 @@
     "id": "1a566a42-b234-40ac-858f-f3fc2d6d28af",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_SingleShotGun",
+    "name": "spr_Gun",
     "For3D": false,
     "HTile": false,
     "VTile": false,
