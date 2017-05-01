@@ -22,3 +22,19 @@ if instance_exists(enemyHit) {
 	enemyHit.y = enemyHit.y + lengthdir_y(speed, direction);	
 
 }
+
+
+// Explode when hit
+if (exploding = true) {
+	secondsUntilWeExplode = secondsUntilWeExplode - 1/room_speed;
+	if(secondsUntilWeExplode < 0) {
+		// Creates explosion			
+		instance_create_depth(x,y, 1, obj_Explosion);
+		instance_destroy();
+	}
+} else {
+	projectileHit = instance_place(x,y, obj_Projectile);
+	if (instance_exists(projectileHit)) {
+		exploding = true;
+	}
+}
