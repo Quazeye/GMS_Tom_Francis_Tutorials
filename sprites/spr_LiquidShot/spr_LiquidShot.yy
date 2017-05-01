@@ -6,13 +6,13 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 31,
-    "bbox_left": 0,
-    "bbox_right": 31,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
+    "bbox_bottom": 25,
+    "bbox_left": 4,
+    "bbox_right": 25,
+    "bbox_top": 3,
+    "bboxmode": 2,
+    "colkind": 2,
+    "coltolerance": 1,
     "frames": [
         {
             "id": "44a99d92-d879-4819-a15a-17f202169bb6",
@@ -49,7 +49,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 100,
+            "opacity": 79,
             "visible": true
         }
     ],
