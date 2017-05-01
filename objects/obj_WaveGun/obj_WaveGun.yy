@@ -2,7 +2,7 @@
     "id": "36135732-3402-4682-8bd2-c129ce6aa27c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_MachineGun",
+    "name": "obj_WaveGun",
     "eventList": [
         {
             "id": "f5f83a92-2997-4ad2-a216-9782b59913ed",
@@ -41,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "8d4d848b-6dd3-4c8f-91b7-1cdf39bdb894",
+    "spriteId": "a6f8fa1b-2663-4fdc-a9e0-c297eef1aaa2",
     "visible": true
 }

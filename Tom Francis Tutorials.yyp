@@ -138,7 +138,7 @@
             "Key": "36135732-3402-4682-8bd2-c129ce6aa27c",
             "Value": {
                 "id": "f49ecccc-9f50-4064-b66c-e267190bc109",
-                "resourcePath": "objects\\obj_MachineGun\\obj_MachineGun.yy",
+                "resourcePath": "objects\\obj_WaveGun\\obj_WaveGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "a6f8fa1b-2663-4fdc-a9e0-c297eef1aaa2",
+            "Value": {
+                "id": "fe5b692e-c3a0-4623-9d12-ef49e14e06da",
+                "resourcePath": "sprites\\spr_LiquidShot\\spr_LiquidShot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7bb95a7-6731-465a-bffd-b9ec3552f921",
             "Value": {
                 "id": "1c2ef1a7-b334-44b2-b5d8-93e037b6c091",
@@ -356,6 +364,14 @@
                 "id": "f023416a-f11d-4df3-813c-7a010ef73518",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d32b8f5e-b334-4e8b-92a2-c7812d7f1bac",
+            "Value": {
+                "id": "e3ae0952-a49d-4a92-ae87-de5b378b0a88",
+                "resourcePath": "objects\\obj_LiquidShot\\obj_LiquidShot.yy",
+                "resourceType": "GMObject"
             }
         },
         {

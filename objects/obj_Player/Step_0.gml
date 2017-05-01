@@ -17,6 +17,20 @@ if (keyboard_check(ord("D"))) {
 	x = x + mySpeed;
 }
 
+// Weapon Switching
+
+if (mouse_check_button_pressed(mb_right)) {
+	// Switch to next weapon up
+	selectedWeaponIndex = selectedWeaponIndex + 1;
+	// If we've gone to far, loop back
+	if (selectedWeaponIndex >= weaponCount) {
+	
+		selectedWeaponIndex = 0;
+	
+	}
+
+}
+
 
 // Facing
 image_angle = point_direction(x,y, mouse_x,mouse_y);
