@@ -38,3 +38,18 @@ if (exploding = true) {
 		exploding = true;
 	}
 }
+
+// We have to check if we exist in case something above has already destroyed us
+if (instance_exists(self.id)) {
+	if (speed = 0) {
+
+		SecondsUntilWeFadeOut = SecondsUntilWeFadeOut - 1/room_speed;
+		image_alpha = SecondsUntilWeFadeOut / puddleLifeTime;
+		image_xscale = 1 + (1 - image_alpha);
+		image_yscale = image_xscale;
+		if(image_alpha <= 0) {
+			instance_destroy();
+		}
+	
+	}
+}
