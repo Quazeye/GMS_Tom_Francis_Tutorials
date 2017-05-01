@@ -3,6 +3,12 @@ if (x < 0) ||(y < 0) || (x > room_width) || (y > room_height){
 	instance_destroy();
 }
 
+if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
+
+	speed = 0;
+
+}
+
 deceleration = 400 / (room_speed * room_speed);
 if (speed > deceleration) {
 
