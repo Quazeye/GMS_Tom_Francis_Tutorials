@@ -6,6 +6,7 @@ image_angle = direction;
 // Bouncing
 scr_bounceOffWalls();
 
+
 // Damage
 
 if (scr_hitByProjectile()) {

@@ -3,8 +3,10 @@ if (x < 0) ||(y < 0) || (x > room_width) || (y > room_height){
 	instance_destroy();
 }
 
+// If we are about to hit a block
 if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
-
+	
+	// Stop
 	speed = 0;
 
 }

@@ -4,18 +4,30 @@
 // Movement
 mySpeed = 300 / room_speed;
 
+speed = 0;
+
 if (keyboard_check(ord("W"))) {
-	y = y - mySpeed;
+	vspeed = -mySpeed;
 }
 if (keyboard_check(ord("S"))) {
-	y = y + mySpeed;
+	vspeed = mySpeed;
 }
 if (keyboard_check(ord("A"))) {
-	x = x - mySpeed;
+	hspeed = -mySpeed;
 }
 if (keyboard_check(ord("D"))) {
-	x = x + mySpeed;
+	hspeed = mySpeed;
 }
+
+
+// If we've hit a block
+if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
+	
+	// Stop
+	speed = 0;
+
+}
+
 
 // Weapon Switching
 
