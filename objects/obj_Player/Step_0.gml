@@ -20,11 +20,20 @@ if (keyboard_check(ord("D"))) {
 }
 
 
-// If we've hit a block
+// If we're about to hit a block
 if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
 	
-	// Stop
-	speed = 0;
+	// Keep as much of our horizontal speed as possible
+	oldHspeed = hspeed;
+	hspeed = 0;
+	while (place_meeting(x + hspeed, y, obj_Solid) = false && // Check there's still room with current hspeed
+		   abs(hspeed) < abs(oldHspeed)) // Check we haven't restored all of our old hspeed
+	{
+		// Creep toward old hspeed
+		hspeed = hspeed + sign(oldHspeed); // sign will be -1 if number is negative
+										   // sign will be +1 if number is positive
+										   // sign will be 0 if number is 0
+	}
 
 }
 
