@@ -1,7 +1,7 @@
 if (instance_exists(owner)) {
 	x = owner.x;
 	y = owner.y;
-	image_angle = owner.image_angle;
+	image_angle = owner.facing;
 
 	if (owner.weapon[owner.selectedWeaponIndex] = self.id) {
 
