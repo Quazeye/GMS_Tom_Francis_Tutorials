@@ -20,6 +20,11 @@ if (keyboard_check(ord("D"))) {
 }
 
 
+hspeed = hspeed + xShunt;
+vspeed = vspeed + yShunt;
+scr_resetShunts();
+
+
 // If we're about to hit a block
 if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
 	

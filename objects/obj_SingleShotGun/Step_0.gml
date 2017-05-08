@@ -24,8 +24,8 @@ if (instance_exists(owner)) {
 			// Kick back
 			kick = 1000 / room_speed;
 			kickDirection = image_angle + 180;
-			owner.x = owner.x + lengthdir_x(kick, kickDirection);
-			owner.y = owner.y + lengthdir_y(kick, kickDirection);
+			owner.xShunt = lengthdir_x(kick, kickDirection);
+			owner.yShunt = lengthdir_y(kick, kickDirection);
 	
 			audio_play_sound(snd_Bullet,1,false);
 	
