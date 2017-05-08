@@ -26,15 +26,27 @@ if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
 	// Keep as much of our horizontal speed as possible
 	oldHspeed = hspeed;
 	hspeed = 0;
-	while (place_meeting(x + hspeed, y, obj_Solid) = false && // Check there's still room with current hspeed
+	while (place_meeting(x + hspeed + sign(oldHspeed), y, obj_Solid) = false && // Check there's still room if we crept a bit closer to our old hspeed
 		   abs(hspeed) < abs(oldHspeed)) // Check we haven't restored all of our old hspeed
-	{
+	{									 // and only pay attention to the absolute value.
 		// Creep toward old hspeed
 		hspeed = hspeed + sign(oldHspeed); // sign will be -1 if number is negative
 										   // sign will be +1 if number is positive
 										   // sign will be 0 if number is 0
 	}
-
+	// We have now figured out how much of our hspeed we can keep without hitting anything, so we're keeping that.
+	
+	// Keep as much of our vertical speed as possible
+	oldVspeed = vspeed;
+	vspeed = 0;
+	while (place_meeting(x + hspeed, y + vspeed + sign(oldVspeed), obj_Solid) = false && // Check there's still room if we crept a bit closer to our old vspeed
+		   abs(vspeed) < abs(oldVspeed)) // Check we haven't restored all of our old vspeed
+	{									 // and only pay attention to the absolute value.
+		// Creep toward old vspeed
+		vspeed = vspeed + sign(oldVspeed); // sign will be -1 if number is negative
+										   // sign will be +1 if number is positive
+										   // sign will be 0 if number is 0
+	}
 }
 
 
