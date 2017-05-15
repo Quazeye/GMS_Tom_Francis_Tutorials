@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3365cf70-8b92-4c2b-921a-58d20dd0a29a",
+            "Value": {
+                "id": "3359d4cd-5622-4cbb-9ecc-02d73f7ca3ef",
+                "resourcePath": "rooms\\rm_Start\\rm_Start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "343bddfc-36cd-40a7-857c-62a28d33cbec",
             "Value": {
                 "id": "7a4ca192-3ab5-49f6-8c5a-1595502371aa",
@@ -250,8 +258,16 @@
             "Key": "7be46a2d-31e0-44aa-bd30-42a7ac855ab1",
             "Value": {
                 "id": "2faca4cd-6a9c-4852-a343-4c9cfc1dd341",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_Game\\rm_Game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "836205c3-439d-4114-8338-48f4cf26443e",
+            "Value": {
+                "id": "0b3fda9c-171c-42a2-a934-062b3b00ff52",
+                "resourcePath": "fonts\\fnt_Menu\\fnt_Menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -260,6 +276,14 @@
                 "id": "f5a9f3a2-04ae-48d0-8695-f60cf61253c5",
                 "resourcePath": "views\\85a3cd8e-42a5-49e9-b952-338387c3bd84.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8793c8c2-b4cb-43a8-a9ab-47ffc5d9791a",
+            "Value": {
+                "id": "0ad4508a-4be7-4780-bbbd-3f18dc4dbcc6",
+                "resourcePath": "objects\\obj_Menu\\obj_Menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -332,6 +356,14 @@
                 "id": "ab009660-49ee-49d5-ab4f-1dcdfc4c6885",
                 "resourcePath": "views\\aaeb8669-028f-4a3d-8d47-a0bcabd2cd0c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0b4b07e-e911-4fea-8151-be22f2a70b8d",
+            "Value": {
+                "id": "e2c8089f-041f-4bc7-9ae1-7237cf1071e7",
+                "resourcePath": "fonts\\fnt_Title\\fnt_Title.yy",
+                "resourceType": "GMFont"
             }
         },
         {
