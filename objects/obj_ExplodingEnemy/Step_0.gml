@@ -3,8 +3,9 @@
 // Facing
 image_angle = direction;
 
-// Bouncing
-scr_bounceOffWalls();
+// Collisions
+scr_stayInsideRoom();
+scr_enemyCollisionWithSolids();
 
 
 // Damage

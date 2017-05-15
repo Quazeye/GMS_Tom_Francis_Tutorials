@@ -1,8 +1,8 @@
 {
-    "id": "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
+    "id": "fca47d5e-7575-4c72-a4aa-af00d623487b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_bounceOffWalls",
+    "name": "scr_initialize_Enemy_Collision",
     "IsCompatibility": false,
     "IsDnD": false
 }

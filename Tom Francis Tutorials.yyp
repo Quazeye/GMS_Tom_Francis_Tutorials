@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "087bbad4-b912-41f7-b513-d83b87db23a6",
+            "Value": {
+                "id": "455acba8-9bb7-4dcb-b534-70f5e42407fb",
+                "resourcePath": "scripts\\scr_enemyCollisionWithSolids\\scr_enemyCollisionWithSolids.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c8a7e5c-b52a-4d9f-baf7-0c0555da8b0b",
             "Value": {
                 "id": "ed04d78f-0482-4a4f-88c3-79f19074f45f",
@@ -479,10 +487,18 @@
             }
         },
         {
+            "Key": "fca47d5e-7575-4c72-a4aa-af00d623487b",
+            "Value": {
+                "id": "cf7fd77e-f7bb-4bf7-85d2-d4a7c32f83e0",
+                "resourcePath": "scripts\\scr_initialize_Enemy_Collision\\scr_initialize_Enemy_Collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
             "Value": {
                 "id": "8230223f-e845-472e-b33d-cd246b8fe924",
-                "resourcePath": "scripts\\scr_bounceOffWalls\\scr_bounceOffWalls.yy",
+                "resourcePath": "scripts\\scr_stayInsideRoom\\scr_stayInsideRoom.yy",
                 "resourceType": "GMScript"
             }
         }
@@ -492,7 +508,9 @@
         "ff2fc2e0-f334-4669-9817-8058c8cf0be5",
         "646b03cd-8248-4a84-ba26-245b8ab9fd48",
         "994dc883-7b6f-4202-ba2c-d5a38b4e6300",
-        "4b7ec6a1-9b4e-415e-b724-971a08cad657"
+        "4b7ec6a1-9b4e-415e-b724-971a08cad657",
+        "087bbad4-b912-41f7-b513-d83b87db23a6",
+        "fca47d5e-7575-4c72-a4aa-af00d623487b"
     ],
     "tutorial": ""
 }

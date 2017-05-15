@@ -26,8 +26,8 @@ enemyHit = instance_place(x,y, obj_Enemy);
 
 if instance_exists(enemyHit) {
 
-	enemyHit.x = enemyHit.x + lengthdir_x(speed, direction);
-	enemyHit.y = enemyHit.y + lengthdir_y(speed, direction);	
+	enemyHit.xShunt = lengthdir_x(speed, direction);
+	enemyHit.yShunt = lengthdir_y(speed, direction);	
 
 }
 
