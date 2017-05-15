@@ -12,3 +12,8 @@ scr_drawTextAndUpdateCurrentY("NOXP");
 
 draw_set_font(fnt_Menu);
 scr_drawTextAndUpdateCurrentY("A game made for a tutorial");
+
+currentY = currentY + 50;
+scr_buttonPressed("Start Game");
+
+scr_drawTextAndUpdateCurrentY("Quit");
