@@ -1,5 +1,9 @@
 
-// Quit key
+
 if (keyboard_check_pressed(vk_escape)) {
-	game_end();
+	if (mode == "Game") {
+		mode = "Titles";
+	} else {
+		mode = "Game";
+	}
 }
