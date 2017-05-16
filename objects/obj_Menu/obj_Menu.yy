@@ -5,16 +5,6 @@
     "name": "obj_Menu",
     "eventList": [
         {
-            "id": "3cb76a1d-c225-40df-a8c0-1fa9f604b753",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8793c8c2-b4cb-43a8-a9ab-47ffc5d9791a"
-        },
-        {
             "id": "ff95fc24-53d2-4f78-a9e8-374244e90384",
             "modelName": "GMEvent",
             "mvc": "1.0",
