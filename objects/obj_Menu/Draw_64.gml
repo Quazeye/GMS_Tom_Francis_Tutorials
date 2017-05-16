@@ -14,6 +14,10 @@ draw_set_font(fnt_Menu);
 scr_drawTextAndUpdateCurrentY("A game made for a tutorial");
 
 currentY = currentY + 50;
-scr_buttonPressed("Start Game");
+if (scr_buttonPressed("Start Game")){
+	room_goto_next();
+}
 
-scr_drawTextAndUpdateCurrentY("Quit");
+if (scr_buttonPressed("Quit")) {
+	game_end();
+}
