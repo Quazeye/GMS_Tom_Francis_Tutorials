@@ -22,4 +22,19 @@ if (mode == "Titles") {
 	if (scr_buttonPressed("Quit")) {
 		game_end();
 	}
+} else if (mode == "Game") {
+	if (instance_exists(obj_Player)) {
+		barIndent = 50;
+		barWidth = view_wport[0] - (barIndent * 2);
+		barHeight = 20;
+		barTop = (view_hport[0] - barIndent) - barHeight;
+	
+		powerFraction = obj_Player.powerUp / obj_Player.powerUpMax;
+	
+		draw_set_color(c_green);
+		draw_set_alpha(0.7);
+		draw_rectangle(barIndent, barTop, barIndent + barWidth, barTop + barHeight, true);
+		draw_rectangle(barIndent, barTop, barIndent + (barWidth * powerFraction), barTop + barHeight, false);
+		draw_set_alpha(1);
+	}
 }
