@@ -73,7 +73,15 @@ if (mouse_check_button_pressed(mb_right)) {
 // Facing
 facing = point_direction(x,y, mouse_x,mouse_y);
 
-
+if (powerUp <= powerUpMax) {
+	powerUpCollected = instance_place(x,y, obj_PowerUp);
+	if (instance_exists(powerUpCollected)) {
+		with (powerUpCollected) {
+			instance_destroy();
+		}
+		powerUp = powerUp + 1;
+	}
+}
 
 // Stay inside the room
 if (x < 0) {

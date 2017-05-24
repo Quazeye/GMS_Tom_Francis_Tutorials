@@ -15,6 +15,9 @@ if (scr_hitByProjectile()) {
 	// Shrink ourselves
 	image_xscale = image_xscale - 0.2;
 	image_yscale = image_xscale;
+	
+	// Create power up
+	instance_create_layer(x,y, "Instances", obj_PowerUp);
 
 	// Destroy ourself if we shrunk into nothing.
 	// If we don't do this then we get bigger and bigger in the 

@@ -2,6 +2,7 @@ if (instance_exists(owner)) {
 	x = owner.x;
 	y = owner.y;
 	image_angle = owner.facing;
+	secondsBetweenShots = 5 / owner.powerUp;
 
 	if (owner.weapon[owner.selectedWeaponIndex] = self.id) {
 
