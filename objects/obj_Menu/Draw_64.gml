@@ -25,9 +25,9 @@ if (mode == "Titles") {
 } else if (mode == "Game") {
 	if (instance_exists(obj_Player)) {
 		barIndent = 50;
-		barWidth = view_wport[0] - (barIndent * 2);
+		barWidth = window_get_width() - (barIndent * 2);
 		barHeight = 20;
-		barTop = (view_hport[0] - barIndent) - barHeight;
+		barTop = (window_get_height() - barIndent) - barHeight;
 	
 		powerFraction = obj_Player.powerUp / obj_Player.powerUpMax;
 	
