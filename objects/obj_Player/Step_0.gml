@@ -26,6 +26,13 @@ vspeed = vspeed + yShunt;
 scr_resetShunts();
 
 
+if (keyboard_check(vk_down)) {
+	scr_savePlayerData();
+}
+if (keyboard_check(vk_up)) {
+	scr_loadPlayerData();
+}
+
 // If we're about to hit a block
 if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
 	
