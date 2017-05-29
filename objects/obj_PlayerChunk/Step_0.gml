@@ -25,7 +25,7 @@ if (reassembling = false) {  // We are still flying out from initial explosion
 		reassembling = true;
 
 	}
-	
+
 	
 } else {  // We've stopped flying out and now want to be sucked back in
 

@@ -27,6 +27,8 @@ if (instance_exists(owner)) {
 			kickDirection = image_angle + 180;
 			owner.xShunt = lengthdir_x(kick, kickDirection);
 			owner.yShunt = lengthdir_y(kick, kickDirection);
+			
+			scr_screenShake(15);
 	
 			audio_play_sound(snd_Bullet,1,false);
 	
