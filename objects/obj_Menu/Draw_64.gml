@@ -16,7 +16,7 @@ if (mode == "Titles") {
 	currentY = currentY + 50;
 	if (scr_buttonPressed("New Game")){
 		mode = "Game";
-		room_goto(rm_Game);
+		room_goto(rm_Level1);
 	}
 
 	if (scr_buttonPressed("Quit")) {

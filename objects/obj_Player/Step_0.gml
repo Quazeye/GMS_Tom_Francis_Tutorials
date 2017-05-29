@@ -81,7 +81,13 @@ if (mouse_check_button_pressed(mb_right)) {
 // Facing
 facing = point_direction(x,y, mouse_x,mouse_y);
 
-if (powerUp <= powerUpMax) {
+
+if (powerUp >= powerUpMax) {
+	// go to the next level
+	if (room_exists(room_next(room))) {
+		room_goto_next();
+	}
+} else {
 	powerUpCollected = instance_place(x,y, obj_PowerUp);
 	if (instance_exists(powerUpCollected)) {
 		with (powerUpCollected) {
