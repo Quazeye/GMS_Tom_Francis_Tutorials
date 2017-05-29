@@ -84,6 +84,7 @@ facing = point_direction(x,y, mouse_x,mouse_y);
 
 if (powerUp >= powerUpMax) {
 	// go to the next level
+	scr_saveInventory();
 	if (room_exists(room_next(room))) {
 		room_goto_next();
 	}
