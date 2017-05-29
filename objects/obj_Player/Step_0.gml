@@ -19,6 +19,7 @@ if (keyboard_check(ord("D"))) {
 	hspeed = mySpeed;
 }
 
+image_speed = speed / 20;
 
 hspeed = hspeed + xShunt;
 vspeed = vspeed + yShunt;

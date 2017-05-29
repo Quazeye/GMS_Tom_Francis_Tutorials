@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4cc3d3b7-8233-4fab-9dc3-4b981ce87147",
+            "Value": {
+                "id": "0bce4371-dc3c-41ca-a668-7cabcf623108",
+                "resourcePath": "sprites\\spr_PlayerLowerBody\\spr_PlayerLowerBody.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "54acba81-e82b-4293-95e7-49bb38419b96",
             "Value": {
                 "id": "d5b3b002-8adf-4a6c-a53c-ee2786e20b1e",

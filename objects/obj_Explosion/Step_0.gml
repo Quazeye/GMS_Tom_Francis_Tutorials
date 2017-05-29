@@ -1,8 +1,8 @@
-image_alpha = SecondsUntilWeFadeOut / explosionLifeTime;
+//image_alpha = SecondsUntilWeFadeOut / explosionLifeTime;
+//SecondsUntilWeFadeOut = SecondsUntilWeFadeOut - 1/room_speed;
 
-
-SecondsUntilWeFadeOut = SecondsUntilWeFadeOut - 1/room_speed;
-if (SecondsUntilWeFadeOut < 0) {
+// If our animation is over
+if (image_index + image_speed > image_number - 1) {
 
 	instance_destroy();
 
