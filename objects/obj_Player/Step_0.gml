@@ -25,13 +25,13 @@ hspeed = hspeed + xShunt;
 vspeed = vspeed + yShunt;
 scr_resetShunts();
 
-
-if (keyboard_check(vk_down)) {
-	scr_savePlayerData();
-}
-if (keyboard_check(vk_up)) {
-	scr_loadPlayerData();
-}
+	// For testing saving
+	//if (keyboard_check(vk_down)) {
+	//	scr_saveInventory();
+	//}
+	//if (keyboard_check(vk_up)) {
+	//	scr_loadInventory();
+	//}
 
 // If we're about to hit a block
 if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {

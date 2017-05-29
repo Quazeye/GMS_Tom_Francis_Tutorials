@@ -1,5 +1,5 @@
 // Create the save file.
-saveFile = file_text_open_write("PlayerData.txt");
+saveFile = file_text_open_write("Inventory.txt");
 
 // Write a line of text to it.
 file_text_write_string(saveFile,"Inventory:");

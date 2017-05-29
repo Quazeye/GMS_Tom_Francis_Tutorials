@@ -274,7 +274,7 @@
             "Key": "6865db90-1e94-466d-8903-aeead7ae91db",
             "Value": {
                 "id": "1287be1c-8223-4c89-a61a-3299dd02d55c",
-                "resourcePath": "scripts\\scr_loadPlayerData\\scr_loadPlayerData.yy",
+                "resourcePath": "scripts\\scr_loadInventory\\scr_loadInventory.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -578,7 +578,7 @@
             "Key": "eee865d3-3343-4685-b54c-e7ffafba5e72",
             "Value": {
                 "id": "c47a113e-c59b-4afa-8639-2740699ddde7",
-                "resourcePath": "scripts\\scr_savePlayerData\\scr_savePlayerData.yy",
+                "resourcePath": "scripts\\scr_saveInventory\\scr_saveInventory.yy",
                 "resourceType": "GMScript"
             }
         },
