@@ -33,8 +33,11 @@ if (screenShakeAmount > 0) {
 }
 // View position should wobble away from normal position by screenshake amount.
 // If its zero it will be stable.
-view_xport[0] = x + random_range(-screenShakeAmount, screenShakeAmount);
-view_yport[0] = y + random_range(-screenShakeAmount, screenShakeAmount);
+shakeX = random_range(-screenShakeAmount, screenShakeAmount);
+shakeY = random_range(-screenShakeAmount, screenShakeAmount);
+
+view_xport[0] = x + shakeX;
+view_yport[0] = y + shakeY;
 
 
 
