@@ -1,5 +1,9 @@
 /// @description Enemy logic
 
+// Some ai Stuff
+
+
+
 // Facing
 image_angle = direction;
 
