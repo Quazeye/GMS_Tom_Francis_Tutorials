@@ -3,3 +3,4 @@ window_set_fullscreen(false);
 
 
 scr_loadInventory();
+scr_saveProgress();

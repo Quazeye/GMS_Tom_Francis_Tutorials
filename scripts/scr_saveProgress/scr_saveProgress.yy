@@ -1,8 +1,8 @@
 {
-    "id": "e4d8be89-2604-4cf4-9327-9b27720f2b68",
+    "id": "e7f47c87-6074-46cd-a082-412269c3eb21",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_initializeRoom",
+    "name": "scr_saveProgress",
     "IsCompatibility": false,
     "IsDnD": false
 }
