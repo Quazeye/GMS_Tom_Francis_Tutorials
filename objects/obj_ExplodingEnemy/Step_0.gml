@@ -6,7 +6,15 @@ if (state = "idle") {
 	sprite_index = spr_ExplodingEnemy;
 	
 	if (scr_iHaveLineOfSightTo(obj_Player)) {
-		state = "alert";
+		// If we are looking in the player's direction
+		directionToPlayer = point_direction(x,y, obj_Player.x,obj_Player.y);
+		relativeDirectionToPlayer = abs(image_angle - directionToPlayer);  // The difference between the 2 angles.
+		halfFieldOfView = 45;
+		
+		if (relativeDirectionToPlayer < halfFieldOfView 
+			|| relativeDirectionToPlayer > 360 - halfFieldOfView) {
+			state = "alert";
+		}
 	}
 	
 } else if (state = "alert") {
