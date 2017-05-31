@@ -2,12 +2,16 @@
 
 // Some ai Stuff
 if (state = "idle") {
-
+	
+	sprite_index = spr_ExplodingEnemy;
+	
 	if (scr_iHaveLineOfSightTo(obj_Player)) {
 		state = "alert";
 	}
 	
 } else if (state = "alert") {
+
+	sprite_index = spr_ExplodingEnemyAlert;
 
 	// Seek the player
 	if (scr_iHaveLineOfSightTo(obj_Player)) {

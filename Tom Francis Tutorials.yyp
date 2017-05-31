@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "3f210ad7-551e-42b6-bfb2-450bfca03598",
+            "Value": {
+                "id": "f0ac8096-5b14-40ae-882f-6b81c9910e86",
+                "resourcePath": "sprites\\spr_ExplodingEnemyAlert\\spr_ExplodingEnemyAlert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42f37d80-fbb3-4a27-9326-0d2fb360daa4",
             "Value": {
                 "id": "102e8bb0-3e73-499c-a94f-83613e76f0ec",
