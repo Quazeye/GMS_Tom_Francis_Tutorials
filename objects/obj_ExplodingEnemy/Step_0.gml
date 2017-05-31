@@ -1,19 +1,38 @@
 /// @description Enemy logic
 
 // Some ai Stuff
+if (state = "idle") {
 
+	if (scr_iHaveLineOfSightTo(obj_Player)) {
+		state = "alert";
+	}
+	
+} else if (state = "alert") {
+
+	// Seek the player
+	if (scr_iHaveLineOfSightTo(obj_Player)) {
+		// Go towards him
+		direction = point_direction(x,y, obj_Player.x,obj_Player.y);
+	} else {
+		state = "idle";
+	}
+	
+}
 
 
 // Facing
 image_angle = direction;
 
-// Collisions
+
+// Stay inside the room
 scr_stayInsideRoom();
+
+
+// Collisions with solids
 scr_enemyCollisionWithSolids();
 
 
 // Damage
-
 if (scr_hitByProjectile()) {
 	
 	scr_screenShake(25);
