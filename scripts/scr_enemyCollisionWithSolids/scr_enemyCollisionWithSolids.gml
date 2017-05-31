@@ -3,9 +3,11 @@ speed = normalSpeed;
 
 // If we are about to walk into a wall, change direction until we are not.
 collisionChecks = 0;
-while (place_meeting(x + hspeed, y + vspeed, obj_Solid) && collisionChecks <= 4 ) {
+directionToCheck = choose(-1,1);
 
-	direction = direction + 45;
+while (place_meeting(x + hspeed, y + vspeed, obj_Solid) && collisionChecks <= 12 ) {
+
+	direction = direction + (random_range(30,60) * directionToCheck);
 	collisionChecks = collisionChecks + 1;
 
 }
