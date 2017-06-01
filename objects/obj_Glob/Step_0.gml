@@ -22,13 +22,27 @@ if (speed > deceleration) {
 
 }
 
-enemyHit = instance_place(x,y, obj_Enemy);
 
-if instance_exists(enemyHit) {
-
-	enemyHit.xShunt = lengthdir_x(speed, direction);
-	enemyHit.yShunt = lengthdir_y(speed, direction);	
-
+// If we're stuck to someone
+if (instance_exists(host)) {
+	// Follow the guy stuck to.
+	x = host.x;
+	y = host.y;
+	
+// If we haven't stuck to anyone yet
+} else {
+	
+	// Did we hit anyone at all?
+	enemyHit = instance_place(x,y, obj_Enemy);
+	if (instance_exists(enemyHit)) {
+		// If so, was it the type we can stick to?
+		if (enemyHit.object_index == obj_Swarmer) {
+			// If so, make that enemy our new host
+			host = enemyHit;
+		}
+		enemyHit.xShunt = lengthdir_x(speed, direction);
+		enemyHit.yShunt = lengthdir_y(speed, direction);	
+	}
 }
 
 

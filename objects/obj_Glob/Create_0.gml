@@ -5,4 +5,5 @@ exploding = false;
 
 puddleLifeTime = 2;
 SecondsUntilWeFadeOut = puddleLifeTime;
- 
+
+host = noone;
