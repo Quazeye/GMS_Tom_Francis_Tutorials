@@ -1,5 +1,30 @@
 /// @description Enemy logic
 
+//Eat Globs
+detectionRange = 400;
+eatRange = 10;
+
+nearestGlob = instance_nearest(x,y, obj_LiquidShot);
+
+// Is there a glob
+if (instance_exists(nearestGlob)) {
+
+	// Is it near enought that I can smell it?
+	distanceToGlob = point_distance(x,y, nearestGlob.x,nearestGlob.y);
+	if (distanceToGlob < detectionRange) {
+		// Okay, but can I get there?
+		if (scr_iHaveLineOfSightTo(nearestGlob)) {
+			// Yes to all, Seek the glob!
+			direction = point_direction(x,y, nearestGlob.x,nearestGlob.y);
+			if (distanceToGlob < eatRange) {
+				with (nearestGlob) {
+					instance_destroy();
+				}
+			}
+		}
+	}
+} 
+
 // Facing
 image_angle = direction;
 
