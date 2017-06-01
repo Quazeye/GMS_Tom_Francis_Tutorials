@@ -10,6 +10,9 @@ secondsSinceLastEnemySpawn = 0;
 bitsReassembled = 0;
 numberOfBitsThePlayerIsMadeOf = 9;
 
+// Enable mouse cursor (for Mac)
+window_set_cursor(cr_default);
+
 
 
 

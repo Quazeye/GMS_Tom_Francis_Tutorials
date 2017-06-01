@@ -15,6 +15,7 @@ if (mode == "Titles") {
 
 	currentY = currentY + 50;
 	if (scr_buttonPressed("New Game")){
+		scr_deleteInventory();
 		mode = "Game";
 		room_goto(rm_Level1);
 	}
