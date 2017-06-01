@@ -2,7 +2,7 @@
 screenShakeAmount = 0;
 
 // Enemy Spawning
-secondsBetweenEnemySpawns = 10;
+secondsBetweenEnemySpawns = 1;
 secondsSinceLastEnemySpawn = 0;
 
 
