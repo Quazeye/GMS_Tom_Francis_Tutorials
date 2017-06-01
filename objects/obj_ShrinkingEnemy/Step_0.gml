@@ -20,6 +20,17 @@ if (instance_exists(nearestGlob)) {
 				with (nearestGlob) {
 					instance_destroy();
 				}
+				growthRate = 0.1;
+				maximumSize = 2;
+				if (image_xscale < maximumSize) {
+					image_xscale = image_xscale + growthRate;
+					image_yscale = image_yscale + growthRate;
+					if (place_meeting(x,y, obj_Solid)) {  //trying to avoid getting stuck in solids
+						image_xscale = image_xscale - growthRate;
+						image_yscale = image_yscale - growthRate;
+					}
+				}
+				
 			}
 		}
 	}
