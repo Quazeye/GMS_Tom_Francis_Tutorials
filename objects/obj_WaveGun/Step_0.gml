@@ -8,7 +8,7 @@ if (instance_exists(owner)) {
 			
 		// Firing
 		if(mouse_check_button(mb_left)) {
-			myBullet = instance_create_depth(x,y,1,obj_LiquidShot);
+			myBullet = instance_create_depth(x,y,1,obj_Glob);
 	
 			myBullet.direction = image_angle + random_range(-5, 5);
 			myBullet.speed = random_range(500, 700) / room_speed;

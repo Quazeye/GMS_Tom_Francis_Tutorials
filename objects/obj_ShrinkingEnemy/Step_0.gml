@@ -4,7 +4,7 @@
 detectionRange = 400;
 eatRange = 10;
 
-nearestGlob = instance_nearest(x,y, obj_LiquidShot);
+nearestGlob = instance_nearest(x,y, obj_Glob);
 
 // Is there a glob
 if (instance_exists(nearestGlob)) {

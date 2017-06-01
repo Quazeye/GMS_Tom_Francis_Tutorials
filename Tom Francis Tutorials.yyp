@@ -1250,7 +1250,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_LiquidShot\/obj_LiquidShot.yy",
+                "resourcePath": "objects\/obj_Glob\/obj_Glob.yy",
                 "resourceType": "GMObject"
             }
         },
