@@ -2,7 +2,7 @@
     "id": "b377ea55-b2bc-4136-a079-91572b0b7652",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ShrinkingEnemy",
+    "name": "obj_Boomer",
     "eventList": [
         {
             "id": "ef23b953-9965-4558-830f-45f3ce4f0052",

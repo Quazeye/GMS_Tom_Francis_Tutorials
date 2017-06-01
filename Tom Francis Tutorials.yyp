@@ -1041,7 +1041,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_ShrinkingEnemy\/obj_ShrinkingEnemy.yy",
+                "resourcePath": "objects\/obj_Boomer\/obj_Boomer.yy",
                 "resourceType": "GMObject"
             }
         },
