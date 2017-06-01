@@ -39,9 +39,9 @@ if (instance_exists(host)) {
 		if (enemyHit.object_index == obj_Swarmer) {
 			// If so, make that enemy our new host
 			host = enemyHit;
+			enemyHit.xShunt = lengthdir_x(speed, direction);
+			enemyHit.yShunt = lengthdir_y(speed, direction);
 		}
-		enemyHit.xShunt = lengthdir_x(speed, direction);
-		enemyHit.yShunt = lengthdir_y(speed, direction);	
 	}
 }
 
