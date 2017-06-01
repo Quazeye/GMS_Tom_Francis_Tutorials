@@ -2,7 +2,7 @@
     "id": "e93cbe86-cc2b-4c2a-b02c-fc9792f61898",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ExplodingEnemy",
+    "name": "obj_Swarmer",
     "eventList": [
         {
             "id": "36734f85-f8ba-4938-a7a6-267e88f2f4d7",

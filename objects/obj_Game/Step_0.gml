@@ -13,7 +13,7 @@ if (secondsSinceLastEnemySpawn >= secondsBetweenEnemySpawns) {
 	}
 		
 	instance_create_depth(spawnX, spawnY, 1, choose(obj_ShrinkingEnemy,
-							obj_ExplodingEnemy, obj_ExplodingEnemy));
+							obj_Swarmer, obj_Swarmer, obj_Swarmer, obj_Swarmer));
 	secondsSinceLastEnemySpawn = 0;
 
 }

@@ -1421,7 +1421,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_ExplodingEnemy\/obj_ExplodingEnemy.yy",
+                "resourcePath": "objects\/obj_Swarmer\/obj_Swarmer.yy",
                 "resourceType": "GMObject"
             }
         },
