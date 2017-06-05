@@ -11,8 +11,6 @@ while (bitsCreatedSoFar < numberOfBitsToCreate) {
 	bitsCreatedSoFar = bitsCreatedSoFar + 1;
 }
 	
-// Play an explody sound
-audio_play_sound(snd_playerDeath,1,false);
 
-// Destroy the player
+// Destroy the calling instance
 instance_destroy();

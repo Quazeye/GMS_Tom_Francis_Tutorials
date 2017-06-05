@@ -49,6 +49,6 @@ if (scr_hitByProjectile()) {
 	
 	scr_screenShake(25);
 	audio_play_sound(snd_explode,1,false);
-	scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);	
+	scr_explodeIntoANumberOfChunks(15, obj_SwarmerChunk);	
 
 }

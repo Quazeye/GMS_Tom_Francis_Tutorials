@@ -495,6 +495,25 @@
             }
         },
         {
+            "Key": "49e9ddeb-0801-4b3f-941f-e25b85f047f4",
+            "Value": {
+                "id": "7986ca3f-8ec5-4f8d-92a6-59e6fd300943",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_SwarmerChunk\/obj_SwarmerChunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a17704c-cdba-4490-ac27-81e70d40ea9a",
             "Value": {
                 "id": "5a11103c-b42d-4131-9642-6ce620969500",

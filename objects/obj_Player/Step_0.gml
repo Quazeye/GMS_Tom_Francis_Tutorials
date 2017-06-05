@@ -123,5 +123,6 @@ if (instance_exists(EnemyTouchingMe)) {
 	
 	scr_screenShake(80);
 	scr_explodeIntoANumberOfChunks(obj_Game.numberOfBitsThePlayerIsMadeOf, obj_PlayerChunk);
-	
+	// Play an explody sound
+	audio_play_sound(snd_playerDeath,1,false);
 }
