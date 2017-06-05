@@ -47,20 +47,5 @@ scr_enemyCollisionWithSolids();
 
 
 if (scr_hitByProjectile()) {
-
-	// Shrink ourselves
-	image_xscale = image_xscale - 0.2;
-	image_yscale = image_xscale;
-	
-	// Create power up
-	instance_create_layer(x,y, "Instances", obj_PowerUp);
-
-	// Destroy ourself if we shrunk into nothing.
-	// If we don't do this then we get bigger and bigger in the 
-	// negative scale.
-	if (image_xscale <= 0) {
-		
-		audio_play_sound(snd_explode,1,false);
-		instance_destroy();
-	}
+	// If we have a swarmer inside us, explode.
 }
