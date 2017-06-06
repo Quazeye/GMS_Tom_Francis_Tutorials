@@ -5,7 +5,9 @@ if (state = "idle") {
 	
 	sprite_index = spr_ExplodingEnemy;
 	
-	if (scr_iHaveLineOfSightTo(obj_Player)) {
+	if (instance_exists(eater)) {
+		state = "eaten";
+	} else if (scr_iHaveLineOfSightTo(obj_Player)) {
 		// If we are looking in the player's direction
 		directionToPlayer = point_direction(x,y, obj_Player.x,obj_Player.y);
 		relativeDirectionToPlayer = abs(image_angle - directionToPlayer);  // The difference between the 2 angles.
@@ -36,7 +38,9 @@ if (state = "idle") {
 	
 } else if (state = "eaten") {
 
-	
+	// Move with the enemy that ate us
+	x = eater.x;
+	y = eater.y;
 
 }
 
