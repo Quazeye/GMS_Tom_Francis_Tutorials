@@ -20,7 +20,12 @@ if (state = "idle") {
 } else if (state = "alert") {
 
 	sprite_index = spr_ExplodingEnemyAlert;
-
+	
+	if (instance_exists(eater)) {
+		
+		state = "eaten";
+		
+	} else 
 	// Seek the player
 	if (scr_iHaveLineOfSightTo(obj_Player)) {
 		// Go towards him
@@ -29,6 +34,10 @@ if (state = "idle") {
 		state = "idle";
 	}
 	
+} else if (state = "eaten") {
+
+	
+
 }
 
 

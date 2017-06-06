@@ -16,7 +16,14 @@ if (instance_exists(nearestGlob)) {
 		if (scr_iHaveLineOfSightTo(nearestGlob)) {
 			// Yes to all, Seek the glob!
 			direction = point_direction(x,y, nearestGlob.x,nearestGlob.y);
+			// But are we close enough to eat it?
 			if (distanceToGlob < eatRange) {
+				// We are! Hurray! Eat the glob!
+				// Is the glob attached to a swarmer?
+				if (instance_exists(nearestGlob.host)) {
+					// Tell it we are the one that ate it.
+					nearestGlob.host.eater = id;
+				}
 				with (nearestGlob) {
 					instance_destroy();
 				}
@@ -30,7 +37,6 @@ if (instance_exists(nearestGlob)) {
 						image_yscale = image_yscale - growthRate;
 					}
 				}
-				
 			}
 		}
 	}
