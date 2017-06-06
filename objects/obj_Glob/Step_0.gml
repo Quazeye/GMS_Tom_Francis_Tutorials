@@ -28,6 +28,8 @@ if (instance_exists(host)) {
 	// Follow the guy stuck to.
 	x = host.x;
 	y = host.y;
+	image_xscale = 1.5;
+	image_yscale = 1.5;
 	
 // If we haven't stuck to anyone yet
 } else {
@@ -43,20 +45,19 @@ if (instance_exists(host)) {
 			enemyHit.yShunt = lengthdir_y(speed, direction);
 		}
 	}
-}
+	// We have to check if we exist in case something above has already destroyed us
+	if (instance_exists(self.id)) {
+		if (speed = 0) {
 
-
-// We have to check if we exist in case something above has already destroyed us
-if (instance_exists(self.id)) {
-	if (speed = 0) {
-
-		SecondsUntilWeFadeOut = SecondsUntilWeFadeOut - 1/room_speed;
-		image_alpha = SecondsUntilWeFadeOut / puddleLifeTime;
-		image_xscale = 1 + (1 - image_alpha);
-		image_yscale = image_xscale;
-		if(image_alpha <= 0) {
-			instance_destroy();
+			SecondsUntilWeFadeOut = SecondsUntilWeFadeOut - 1/room_speed;
+			image_alpha = SecondsUntilWeFadeOut / puddleLifeTime;
+			image_xscale = 1 + (1 - image_alpha);
+			image_yscale = image_xscale;
+			if(image_alpha <= 0) {
+				instance_destroy();
+			}
 		}
-	
 	}
 }
+
+
