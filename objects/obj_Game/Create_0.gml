@@ -2,9 +2,9 @@
 screenShakeAmount = 0;
 
 // Enemy Spawning
-secondsBetweenEnemySpawns = 1;
+secondsBetweenEnemySpawns = 0.1;
 secondsSinceLastEnemySpawn = 0;
-
+maximumSwarmers = 500;
 
 // Global constants
 bitsReassembled = 0;

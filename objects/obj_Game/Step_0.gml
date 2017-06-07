@@ -11,12 +11,12 @@ if (secondsSinceLastEnemySpawn >= secondsBetweenEnemySpawns) {
 		spawnX = choose(0, room_width);
 		spawnY = choose(room_height);
 	}
-		
-	instance_create_depth(spawnX, spawnY, 1, choose(obj_Boomer,
-							obj_Swarmer, obj_Swarmer, obj_Swarmer, obj_Swarmer, 
-							obj_Swarmer, obj_Swarmer, obj_Swarmer, obj_Swarmer));
+	
+	if (instance_number(obj_Swarmer) < maximumSwarmers) {	
+		instance_create_layer(spawnX, spawnY, "Instances", obj_Swarmer);
+	}
+	
 	secondsSinceLastEnemySpawn = 0;
-
 }
 
 
