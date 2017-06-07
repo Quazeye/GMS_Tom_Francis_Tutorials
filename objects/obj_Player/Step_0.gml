@@ -122,6 +122,11 @@ EnemyTouchingMe = instance_place(x,y, obj_Enemy);
 if (instance_exists(EnemyTouchingMe)) {
 	
 	scr_screenShake(80);
+	
+	with (obj_Swarmer) {
+		scr_explodeIntoANumberOfChunks(5, obj_SwarmerChunk);
+	}
+	
 	scr_explodeIntoANumberOfChunks(obj_Game.numberOfBitsThePlayerIsMadeOf, obj_PlayerChunk);
 	// Play an explody sound
 	audio_play_sound(snd_playerDeath,1,false);
