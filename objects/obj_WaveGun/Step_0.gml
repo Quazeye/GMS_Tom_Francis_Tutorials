@@ -10,7 +10,7 @@ if (instance_exists(owner)) {
 		if(mouse_check_button(mb_left)) {
 			myBullet = instance_create_depth(x,y,1,obj_Glob);
 	
-			myBullet.direction = image_angle + random_range(-5, 5);
+			myBullet.direction = image_angle + random_range(-1, 1);
 			myBullet.speed = random_range(500, 700) / room_speed;
 			myBullet.image_angle = myBullet.direction;
 
