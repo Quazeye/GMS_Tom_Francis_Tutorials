@@ -33,9 +33,10 @@ if (instance_exists(nearestGlob)) {
 							image_yscale = image_yscale - growthRate;
 						}
 					}
-					with (nearestGlob) {
-						instance_destroy();
-					}
+
+				}
+				with (nearestGlob) {
+					instance_destroy();
 				}
 			}
 		}
