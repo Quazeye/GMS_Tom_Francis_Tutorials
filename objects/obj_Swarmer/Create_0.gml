@@ -1,3 +1,5 @@
+depth = 10;
+
 state = "idle";
 scr_initialize_Enemy_Collision(25, random(360));  // argument0 = speed, argument1 = direction
 
