@@ -3,16 +3,18 @@ secondsSinceLastEnemySpawn = secondsSinceLastEnemySpawn + (1 / room_speed);
 
 if (secondsSinceLastEnemySpawn >= secondsBetweenEnemySpawns) {
 
-	// Spawn enemy
-	if choose(true, false) {	
-		spawnX = random(room_width);
-		spawnY = choose(0, room_height);
-	} else {
-		spawnX = choose(0, room_width);
-		spawnY = choose(room_height);
-	}
-	
-	if (instance_number(obj_Swarmer) < maximumSwarmers) {	
+	// If there aren't too many swarmers	
+	if (instance_number(obj_Swarmer) < maximumSwarmers && instance_number(obj_Boomer) > 0) {
+		
+		// Choose where to spawn one 
+		if choose(true, false) {	
+			spawnX = random(room_width);
+			spawnY = choose(0, room_height);
+		} else {
+			spawnX = choose(0, room_width);
+			spawnY = choose(room_height);
+		}
+		// Spawn one there	
 		instance_create_layer(spawnX, spawnY, "Instances", obj_Swarmer);
 	}
 	
