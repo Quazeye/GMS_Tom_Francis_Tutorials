@@ -2,7 +2,7 @@
     "id": "36135732-3402-4682-8bd2-c129ce6aa27c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_WaveGun",
+    "name": "obj_BaitGun",
     "eventList": [
         {
             "id": "f5f83a92-2997-4ad2-a216-9782b59913ed",
