@@ -23,6 +23,7 @@ if (instance_exists(nearestGlob)) {
 				if (instance_exists(nearestGlob.host)) {
 					// Tell it we are the one that ate it.
 					nearestGlob.host.eater = id;
+					thingsEaten = thingsEaten + 1;
 					growthRate = 0.35;
 					maximumSize = 2;
 					if (image_xscale < maximumSize) {
@@ -55,4 +56,7 @@ scr_enemyCollisionWithSolids();
 
 if (scr_hitByProjectile()) {
 	// If we have a swarmer inside us, explode.
+	if (thingsEaten > 0) {
+		instance_destroy();
+	}
 }

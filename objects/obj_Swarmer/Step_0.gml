@@ -38,10 +38,14 @@ if (state = "idle") {
 	
 } else if (state = "eaten") {
 
-	// Move with the enemy that ate us
-	x = eater.x;
-	y = eater.y;
-
+	if (instance_exists(eater)) {
+		// Move with the enemy that ate us
+		x = eater.x;
+		y = eater.y;
+	} else {
+		// Our eater has been destroyed
+		scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);
+	}
 }
 
 
