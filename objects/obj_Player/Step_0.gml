@@ -124,7 +124,8 @@ if (instance_exists(EnemyTouchingMe)) {
 	scr_screenShake(80);
 	
 	with (obj_Swarmer) {
-		scr_explodeIntoANumberOfChunks(5, obj_SwarmerChunk);
+		// If player dies make all swarmers direction go away from the player
+		direction = point_direction(obj_Player.x,obj_Player.y, x,y);
 	}
 	
 	scr_explodeIntoANumberOfChunks(obj_Game.numberOfBitsThePlayerIsMadeOf, obj_PlayerChunk);
