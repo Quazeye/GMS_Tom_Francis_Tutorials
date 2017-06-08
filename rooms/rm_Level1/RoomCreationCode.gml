@@ -27,3 +27,26 @@ while (instance_number(obj_Solid) < numberOfBlocks && attempt < numberOfAttempts
 	attempt = attempt + 1;
 }
 
+
+
+// Create some random number of Boomers and if it spawns on the player destoy it.  
+numberOfBoomers = irandom_range(3,7);
+// Number of attempts to make before giving up (in case we have a situation where it can't get to the random number etc.
+numberOfAttempts = numberOfBoomers * 100;
+// Initial attempt
+attempt = 0;
+
+while (instance_number(obj_Boomer) < numberOfBoomers && attempt < numberOfAttempts) {
+	newBoomer = instance_create_layer(random(room_width), random(room_height), "Instances" ,obj_Boomer);
+	with (newBoomer) {
+		// If we are on top of the player destroy us.
+		if place_meeting(x,y, obj_Player) {
+			instance_destroy();
+		}
+		if place_meeting(x,y, obj_Solid) {
+			instance_destroy();
+		}  
+	}
+	attempt = attempt + 1;
+}
+

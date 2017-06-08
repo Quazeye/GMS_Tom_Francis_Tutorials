@@ -38,6 +38,7 @@ if (mode == "Titles") {
 	currentY = currentY + 50;
 	if (scr_buttonPressed("Next Level")){
 		mode = "Game";
-		room_goto_next();
+		// Goes to the room again and runs the create code that randomly generates the level.
+		room_goto(rm_Level1);
 	}
 }
