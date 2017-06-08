@@ -1,9 +1,15 @@
 
 
 if (keyboard_check_pressed(vk_escape)) {
-	if (mode == "Game") {
+	if (mode != "Titles") {
 		mode = "Titles";
 	} else {
 		mode = "Game";
+	}
+}
+
+if (instance_number(obj_Enemy) < 1) {
+	if (mode = "Game") {
+		mode = "Victory";
 	}
 }

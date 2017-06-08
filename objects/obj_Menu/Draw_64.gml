@@ -23,4 +23,21 @@ if (mode == "Titles") {
 	if (scr_buttonPressed("Quit")) {
 		game_end();
 	}
+} else if (mode == "Victory") {
+	x = view_wport[0] / 2;
+	y = 200;
+
+	currentY = y;
+	margin = 10;
+
+	draw_set_halign(fa_center);
+
+	draw_set_font(fnt_Menu);
+	scr_drawTextAndUpdateCurrentY("Virus Eliminated");
+
+	currentY = currentY + 50;
+	if (scr_buttonPressed("Next Level")){
+		mode = "Game";
+		room_goto_next();
+	}
 }
