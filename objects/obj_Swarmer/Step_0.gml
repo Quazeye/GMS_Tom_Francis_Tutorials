@@ -44,7 +44,7 @@ if (state = "idle") {
 		y = eater.y;
 	} else {
 		// Our eater has been destroyed
-		scr_explodeIntoANumberOfChunks(25, obj_ExplodingEnemyChunk);
+		scr_explodeIntoANumberOfChunks(15, obj_SwarmerChunk);
 	}
 }
 

@@ -57,6 +57,6 @@ scr_enemyCollisionWithSolids();
 if (scr_hitByProjectile()) {
 	// If we have a swarmer inside us, explode.
 	if (thingsEaten > 0) {
-		instance_destroy();
+		scr_explodeIntoANumberOfChunks(25 * thingsEaten, obj_BoomerChunk);
 	}
 }

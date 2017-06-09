@@ -742,6 +742,25 @@
             }
         },
         {
+            "Key": "78c76004-a7d6-4df6-8644-26e182135381",
+            "Value": {
+                "id": "d9e1c499-65e1-484e-8cf1-63c7f9fd2260",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_BoomerChunk\/spr_BoomerChunk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7be46a2d-31e0-44aa-bd30-42a7ac855ab1",
             "Value": {
                 "id": "2faca4cd-6a9c-4852-a343-4c9cfc1dd341",
@@ -1271,6 +1290,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd90bed2-949b-4a34-9de2-bb4e77712307",
+            "Value": {
+                "id": "d33712f9-38d4-48d1-9e5d-35e6b2bc0dd5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_BoomerChunk\/obj_BoomerChunk.yy",
+                "resourceType": "GMObject"
             }
         },
         {
