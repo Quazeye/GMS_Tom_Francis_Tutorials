@@ -6,7 +6,8 @@ if (instance_exists(obj_Game) == false) {
 	instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_Game);
 }
 
-safetyMargin = 128;  // so blocks don't spawn partially outside of room.
+blockSize = 128;
+safetyMargin = blockSize;  // so blocks don't spawn partially outside of room.
 
 
 // Create some random number of blocks and if it spawns on the player destoy it.  
@@ -18,6 +19,8 @@ attempt = 0;
 
 while (instance_number(obj_Solid) < numberOfBlocks && attempt < numberOfAttempts) {
 	newBlock = instance_create_layer(random_range(safetyMargin,room_width - safetyMargin), random_range(safetyMargin, room_height - safetyMargin), "Instances" ,obj_Solid);
+	newBlock.x = (newBlock.x div blockSize) * blockSize; // x div blocksize divides x by blocksize and drops remainder.  So this will for the blocksize 128 always be a multiple of 128.
+	newBlock.y = (newBlock.y div blockSize) * blockSize; // See above!
 	with (newBlock) {
 		// If we are on top of the player destroy us.
 		if place_meeting(x,y, obj_Player) {
