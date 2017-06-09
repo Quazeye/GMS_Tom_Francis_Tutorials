@@ -1,8 +1,8 @@
 {
-    "id": "646b03cd-8248-4a84-ba26-245b8ab9fd48",
+    "id": "4ff1687b-71df-4e75-a76d-0855d6929605",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_hitByProjectile",
+    "name": "scr_projectileHitSomething",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "4ff1687b-71df-4e75-a76d-0855d6929605",
+            "Value": {
+                "id": "2e8bd7cf-94fc-47b7-a387-90721987c856",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_projectileHitSomething\/scr_projectileHitSomething.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "54acba81-e82b-4293-95e7-49bb38419b96",
             "Value": {
                 "id": "d5b3b002-8adf-4a6c-a53c-ee2786e20b1e",
@@ -1198,6 +1217,25 @@
             }
         },
         {
+            "Key": "c78af641-ac51-43cb-a494-ab94dcbc6ac4",
+            "Value": {
+                "id": "d24171ce-9730-40f9-8190-4d1c9be4e97a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_SwarmerSplat\/obj_SwarmerSplat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca04fdf0-f2b2-4872-9124-7b19171d10d4",
             "Value": {
                 "id": "9e8e64ad-587a-4d68-a34e-51f85156e5c7",
@@ -1540,6 +1578,25 @@
             }
         },
         {
+            "Key": "f26fda44-2b31-4075-80ec-2189db428063",
+            "Value": {
+                "id": "a6083431-5d89-4441-aefd-c46f86dff70e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_SwarmerSplat\/spr_SwarmerSplat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "07ed193e-2c68-452a-b6be-d7875b379f48",
@@ -1615,7 +1672,8 @@
         "a43218e0-a7dd-44ba-937e-b69447043317",
         "4a17704c-cdba-4490-ac27-81e70d40ea9a",
         "95007ed6-74c5-44ca-94b6-c3790362a015",
-        "680550c1-f82e-4ebb-b2f5-d7a03244928f"
+        "680550c1-f82e-4ebb-b2f5-d7a03244928f",
+        "4ff1687b-71df-4e75-a76d-0855d6929605"
     ],
     "tutorial": ""
 }

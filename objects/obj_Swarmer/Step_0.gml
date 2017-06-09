@@ -62,10 +62,14 @@ scr_enemyCollisionWithSolids();
 
 
 // Damage
-if (scr_hitByProjectile()) {
-	
+incomingProjectile = instance_place(x,y, obj_Projectile);
+
+if (instance_exists(incomingProjectile)) {
 	scr_screenShake(25);
+	mySplat = instance_create_layer(x,y, "Instances", obj_SwarmerSplat);
+	mySplat.image_angle = incomingProjectile.image_angle;
+	scr_projectileHitSomething(incomingProjectile);
 	audio_play_sound(snd_explode,1,false);
 	scr_explodeIntoANumberOfChunks(15, obj_SwarmerChunk);	
-
 }
+
