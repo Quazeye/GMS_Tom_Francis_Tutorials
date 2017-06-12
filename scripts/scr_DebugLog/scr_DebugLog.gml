@@ -2,7 +2,7 @@
 ///@arg channel
 with (obj_Game) {
 	// Define what channel we're listening to.
-	DebugChannel = "DrawingStations";
+	DebugChannel = "PlayerSpeed";
 	
 	// Turn what we were given into text.
 	var DebugString = string(argument0); //,18,6

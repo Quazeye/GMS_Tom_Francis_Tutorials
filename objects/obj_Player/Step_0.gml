@@ -1,5 +1,5 @@
 /// @description Player Movement
-
+scr_DebugLog(speed, "PlayerSpeed");
 
 // Movement
 mySpeed = 300 / room_speed;
