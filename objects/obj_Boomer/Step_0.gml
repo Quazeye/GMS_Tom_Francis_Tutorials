@@ -24,8 +24,9 @@ if (instance_exists(nearestGlob)) {
 					// Tell it we are the one that ate it.
 					nearestGlob.host.eater = id;
 					thingsEaten = thingsEaten + 1;
-					growthRate = 0.35;
-					maximumSize = 2;
+					growthRate = 0.35 / thingsEaten;
+					maximumSize = 5;
+					image_alpha = 0.4;
 					if (image_xscale < maximumSize) {
 						image_xscale = image_xscale + growthRate;
 						image_yscale = image_yscale + growthRate;
