@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "07bc9349-15ee-403a-bb8f-f28ddc1dbad9",
+            "Value": {
+                "id": "3b70e0f3-8d28-4ffb-805d-86591ae79b3c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_DebugLogDraw\/scr_DebugLogDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "087bbad4-b912-41f7-b513-d83b87db23a6",
             "Value": {
                 "id": "455acba8-9bb7-4dcb-b534-70f5e42407fb",
@@ -1808,7 +1827,8 @@
         "680550c1-f82e-4ebb-b2f5-d7a03244928f",
         "4ff1687b-71df-4e75-a76d-0855d6929605",
         "bbefa841-61f1-4aa9-8b4c-2d1b8a2776f0",
-        "a04f160f-76cb-422b-877e-7276ac510604"
+        "a04f160f-76cb-422b-877e-7276ac510604",
+        "07bc9349-15ee-403a-bb8f-f28ddc1dbad9"
     ],
     "tutorial": ""
 }
