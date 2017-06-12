@@ -10,11 +10,11 @@ maximumSwarmers = 500;
 bitsReassembled = 0;
 numberOfBitsThePlayerIsMadeOf = 9;
 
+// Debuger
+scr_DebugLogInitialize();
+
+
+
 // Enable mouse cursor (for Mac)
 window_set_cursor(cr_default);
-
-
-
-
-
 

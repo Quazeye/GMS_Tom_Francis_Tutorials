@@ -875,6 +875,25 @@
             }
         },
         {
+            "Key": "8ccbb292-1e25-4188-a1d3-ce447b90530b",
+            "Value": {
+                "id": "e3f91e55-6e61-450e-a9aa-31940d1a0000",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/8ccbb292-1e25-4188-a1d3-ce447b90530b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8d4d848b-6dd3-4c8f-91b7-1cdf39bdb894",
             "Value": {
                 "id": "ddaa2c29-7115-4e31-b3fb-422c333460b4",
@@ -967,6 +986,25 @@
                 ],
                 "resourcePath": "sounds\/snd_Bullet\/snd_Bullet.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a04f160f-76cb-422b-877e-7276ac510604",
+            "Value": {
+                "id": "27183ec2-471c-40e3-a36f-248e3b0afebc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_DebugLog\/scr_DebugLog.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1195,6 +1233,25 @@
                 ],
                 "resourcePath": "sprites\/spr_Explosion\/spr_Explosion.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbefa841-61f1-4aa9-8b4c-2d1b8a2776f0",
+            "Value": {
+                "id": "bd8d1f02-3339-4ada-953b-4ca31a8a9378",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_DebugLogInitialize\/scr_DebugLogInitialize.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1749,7 +1806,9 @@
         "4a17704c-cdba-4490-ac27-81e70d40ea9a",
         "95007ed6-74c5-44ca-94b6-c3790362a015",
         "680550c1-f82e-4ebb-b2f5-d7a03244928f",
-        "4ff1687b-71df-4e75-a76d-0855d6929605"
+        "4ff1687b-71df-4e75-a76d-0855d6929605",
+        "bbefa841-61f1-4aa9-8b4c-2d1b8a2776f0",
+        "a04f160f-76cb-422b-877e-7276ac510604"
     ],
     "tutorial": ""
 }
