@@ -362,6 +362,25 @@
             }
         },
         {
+            "Key": "3c0c56e3-3538-4f34-b917-6a2b5cb8332b",
+            "Value": {
+                "id": "06ec0628-c212-4005-bc75-5c013478e540",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_BoomerSplat\/spr_BoomerSplat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d838ddf-1998-43d5-82b9-3e340f1d93a7",
             "Value": {
                 "id": "df3b5bdf-b7c6-4ff4-af9d-6032eef76ee9",
@@ -434,6 +453,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_Solid\/obj_Solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "452925ff-0006-4038-ad9f-0d25b482e4e0",
+            "Value": {
+                "id": "0f3a77e9-0ec0-4562-98bd-16e9282d294d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_BoomerSplat\/obj_BoomerSplat.yy",
                 "resourceType": "GMObject"
             }
         },

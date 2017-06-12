@@ -16,14 +16,8 @@ if (speed > deceleration) { // If there is still some speed to lose
 	
 	// Stop completely
 	speed = 0;
-
-}
-
-//Shrink over time
-image_xscale = image_xscale - (1.5 / room_speed); // Less than 1 second to shrink to nothing
-image_yscale = image_xscale;
-
-//Destroy when vanished
-if (image_xscale <= 0) {
+	mySplat = instance_create_layer(x,y, "Instances", obj_BoomerSplat);
+	mySplat.image_angle = image_angle;
 	instance_destroy();
 }
+
