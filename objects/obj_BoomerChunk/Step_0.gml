@@ -4,6 +4,19 @@
 // deceleration is for when we are blowing up
 deceleration = 2000 / (room_speed * room_speed);
 
+// If we are about to hit something
+if (place_meeting(x + hspeed, y + vspeed, obj_Solid)) {
+	// Are we hitting something horizontally?
+	if (place_meeting(x + hspeed, y, obj_Solid)) {
+		// If so bounce horizontally
+		hspeed = hspeed * -1;
+	}
+	// Are we hitting something vertically?
+	if (place_meeting(x, y + vspeed, obj_Solid)) {
+		// If so bounce vertically
+		vspeed = vspeed * -1;
+	}
+}
 
 // We are still flying out from the initial explosion	
 if (speed > deceleration) { // If there is still some speed to lose
