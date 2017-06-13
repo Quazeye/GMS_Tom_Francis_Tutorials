@@ -30,3 +30,9 @@ if (aPressed = false) {
 		aPressed = true;
 	}
 }
+if (leftClicked = false) {
+	scr_drawTextAndUpdateCurrentY("Left click: shoot");
+	if (mouse_check_button(mb_left)) {
+		leftClicked = true;
+	}
+}
