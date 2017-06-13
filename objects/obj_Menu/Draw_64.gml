@@ -17,7 +17,7 @@ if (mode == "Titles") {
 	if (scr_buttonPressed("New Game")){
 		scr_deleteInventory();
 		mode = "Game";
-		room_goto(rm_Level1);
+		room_goto(rm_Tutorial);
 	}
 
 	if (scr_buttonPressed("Quit")) {

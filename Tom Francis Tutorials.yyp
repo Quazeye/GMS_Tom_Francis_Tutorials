@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "7f9c9d7f-3c02-4eb2-b26c-167e3c40d5ca",
+            "Value": {
+                "id": "1188051a-e2b1-441d-aacf-e7429345e508",
+                "resourcePath": "objects\\obj_Tutorial\\obj_Tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "836205c3-439d-4114-8338-48f4cf26443e",
             "Value": {
                 "id": "0b3fda9c-171c-42a2-a934-062b3b00ff52",
@@ -612,6 +620,14 @@
                 "id": "9e8e64ad-587a-4d68-a34e-51f85156e5c7",
                 "resourcePath": "sprites\/spr_PowerUp\/spr_PowerUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbf7ad10-2515-4d57-9d6f-3a6590abf29c",
+            "Value": {
+                "id": "c98cf3ef-d211-4555-aac2-b210731d0e02",
+                "resourcePath": "fonts\\fnt_Tutorial\\fnt_Tutorial.yy",
+                "resourceType": "GMFont"
             }
         },
         {

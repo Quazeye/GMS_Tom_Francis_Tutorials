@@ -8,7 +8,7 @@ if (keyboard_check_pressed(vk_escape)) {
 	}
 }
 
-if (instance_number(obj_Enemy) < 1) {
+if (instance_number(obj_Enemy) < 1 && room = rm_Level1) {
 	if (mode = "Game") {
 		mode = "Victory";
 	}
