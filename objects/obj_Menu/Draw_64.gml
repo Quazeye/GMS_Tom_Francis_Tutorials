@@ -19,6 +19,9 @@ if (mode == "Titles") {
 		mode = "Game";
 		room_goto(rm_Tutorial);
 	}
+	if (scr_buttonPressed("Website")) {
+		url_open("http://www.itch.io");
+	}
 
 	if (scr_buttonPressed("Quit")) {
 		game_end();
