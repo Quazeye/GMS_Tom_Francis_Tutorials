@@ -3,3 +3,4 @@ sPressed = false;
 dPressed = false;
 aPressed = false;
 leftClicked = false;
+stage = "Controls";
