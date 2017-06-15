@@ -4,7 +4,7 @@ secondsSinceLastEnemySpawn = secondsSinceLastEnemySpawn + (1 / room_speed);
 if (secondsSinceLastEnemySpawn >= secondsBetweenEnemySpawns) {
 
 	// If there aren't too many swarmers	
-	if (instance_number(obj_Swarmer) < maximumSwarmers && instance_number(obj_Boomer) > 0) {
+	if (instance_number(obj_Swarmer) < maximumSwarmers && instance_number(obj_Boomer) > 0) && room = rm_Level1 {
 		
 		// Choose where to spawn one 
 		if choose(true, false) {	

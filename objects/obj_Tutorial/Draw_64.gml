@@ -47,5 +47,36 @@ if (stage = "Swarmers") {
 	
 	if (instance_number(obj_Swarmer) < 1) {
 		stage = "Boomers";
+		tutorialBoomer = instance_create_layer(random(room_width),0, "Instances", obj_Boomer);
+	}
+}
+
+if (stage = "Boomers") {
+	scr_drawTextAndUpdateCurrentY("The hideous green things are invincible.");
+	scr_drawTextAndUpdateCurrentY("Unless they eat a red thing.");
+	
+	if (instance_exists(tutorialBoomer)) {
+		if (tutorialBoomer.thingsEaten = 0) {
+			scr_drawTextAndUpdateCurrentY("Fire some bait at a red thing.");
+		} else {
+			currentY = currentY + 50;
+			scr_drawTextAndUpdateCurrentY("Shoot the green thing.");
+		}
+	} else {
+		// We're done.  Show the victory screen!
+		obj_Menu.mode = "Victory";
+	}
+	
+	currentY = currentY + 50;
+	
+	if (rightClicked = false) {
+		scr_drawTextAndUpdateCurrentY("Right click: fire bait");
+		if (mouse_check_button(mb_right)) {
+			rightClicked = true;
+		}
+	}
+	
+	if (instance_number(obj_Swarmer) < 1) {
+		instance_create_layer(random(room_width),0, "Instances", obj_Swarmer);	
 	}
 }
